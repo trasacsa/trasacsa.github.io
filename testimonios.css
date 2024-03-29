@@ -1,0 +1,41 @@
+@import url(style.css);
+
+/*testimonio*/
+
+.testimonio {
+    padding: 30px;
+}
+
+.testimonio-content {
+    flex-direction: column;
+}
+
+.testimonio-1 {
+    padding: 0;
+}
+
+
+.testimonio-1 img {
+    width: 250px;
+    height: auto;
+}
+
+.testimonio-1 h2 {
+    font-size: 45px;
+    line-height: 70px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.testimonio-1 h3 {
+    font-size: 55px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.testimonio-1 h3 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    gap: 5px;
+}
