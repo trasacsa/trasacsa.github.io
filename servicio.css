@@ -1,0 +1,102 @@
+@import url(style.css);
+
+.scroll {
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+
+.scroll img {
+    filter: invert(15%);
+}
+
+.scroll h1 {
+    color: #141C29;
+}
+
+.carrito {
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.contenedor>div {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #2D4263;
+    border-radius: 20px;
+}
+
+.contenedor>div:hover {
+    background-color: #11294d;
+}
+
+/* Estilos para la cuadrícula */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Distribución equitativa de los elementos */
+}
+
+.product {
+    flex: 0 1 calc(30% - 20px);
+    /* 30% de ancho - 20px de espacio entre elementos */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    /* Tamaño fijo para el contenedor */
+    width: 250px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    /* Asegurar que la imagen no sobrepase el contenedor */
+    max-height: 400px;
+    /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+}
+
+.product .offer {
+    background-color: #FFA500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.product .price {
+    font-size: 18px;
+}
+
+.product .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*banner*/
+
+.imagen-11 img {
+    width: 95%;
+    height: auto;
+    align-items: center;
+
+
+
+}
