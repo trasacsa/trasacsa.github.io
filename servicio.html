@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRASAC.SA</title>
+    <link rel="stylesheet" href="servicio.css">
+    <link rel="shortcut icon" href="imagenes/logo1.svg" type="image/x-icon">
+    <meta property="og:image" content="https://brisaaureta.github.io/IMAGENES/PORTADANUEVA.jpg" />
+    <meta property="og:url" content="https://your-website.com" />
+    <meta property="og:title" content="Your appealing title here" />
+    <meta property="og:description" content="Your brief description here" />
+    <meta name="description"
+        content="TRASAC es una cadena de supermercado que brinda productos de calidad a sus clientes y viene celebrando su 50 aniversario,asi que estas invitado a nuestra celebracion.">
+</head>
+
+<body>
+    <header>
+        <div class="header container">
+            <img class="logo-1" src="imagenes/logo1.svg" alt="" width="238px" height="268px">
+            <button id="abrir" class="abrir-menu">
+                <img src="IMAGENES/menu.svg" alt="" width="150px" height="150px">
+            </button>
+            <div id="menu" class="menu">
+                <div class="header2">
+                    <img class="logo-2" src="imagenes/logo1.svg" alt="" width="238px" height="268px">
+                    <button id="cerrar" class="cerrar-menu">
+                        <img src="IMAGENES/cerrar.svg" alt="">
+                    </button>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li> <a href="index.html">Inicio</a></li>
+                        <li> <a href="servicio.html">servicios</a></li>
+                        <li> <a href="nosotros.html">nosotros</a></li>
+                        <li> <a href="testimonios.html">testimonios</a></li>
+                        <li> <a href="contactos.html">contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="submenu">
+                <img id="img-carrito" src="imagenes/iconocarrito.png" alt="carrito-de-compras" width="512px"
+                    height="512px">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar el Carrito</a>
+                </div>
+            </div>
+    </header>
+    <section id="servicios-prod">
+        <main class="products container">
+            <h2>Productos</h2>
+            <div class="box-container" id="lista-01">
+
+                <div class="box">
+                    <img src="imagenes/atun.png" alt="Producto1">
+                    <div class="product-txt">
+                        <h3>Atun Tuna</h3>
+                        <p>Atun Tuna 2x1</p>
+                        <p class="precio">PRECIO: S/15</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="1">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/arroz.png" alt="Producto2">
+                    <div class="product-txt">
+                        <h3>Arroz</h3>
+                        <p>Arroz costeño</p>
+                        <p class="precio">PRECIO: S/1.5 C/K</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="2">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/zanahorias-bebe.png" alt="Producto3">
+                    <div class="product-txt">
+                        <h3>Zanahoria</h3>
+                        <p>¡Hazte con nuestras zanahorias hoy mismo y descubre una nueva dimensión de sabor y bienestar
+                            en
+                            tu
+                            cocina!</p>
+                        <p class="precio">PRECIO: S/4.50</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="3">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/ayudin.png" alt="Producto4">
+                    <div class="product-txt">
+                        <h3>AYUDÍN 2x1</h3>
+                        <p>Lavavajillas Líquido AYUDÍN Limón y Sábila Botella 1.2L</p>
+                        <p class="precio">PRECIO: S/18.90</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="4">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/ace.png" alt="Producto5">
+                    <div class="product-txt">
+                        <h3>ACE</h3>
+                        <p>Detergente en Polvo ACE Aroma de Limón Frasco 750g</p>
+                        <p class="precio">PRECIO: S/12.90</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="5">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/casino.png" alt="Producto6">
+                    <div class="product-txt">
+                        <h3>CASINO</h3>
+                        <p>Galletas CASINO Sabor a Menta Lover Bolsa 43g Paquete 8un</p>
+                        <p class="precio">PRECIO: S/5.60</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="6">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/colgate.png" alt="Producto7">
+                    <div class="product-txt">
+                        <h3>COLGATE</h3>
+                        <p>Pasta Dental COLGATE Triple Acción Menta Original 100ml</p>
+                        <p class="precio">PRECIO: S/8.50</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="7">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/downy (1).png" alt="Producto8">
+                    <div class="product-txt">
+                        <h3>DOWNY</h3>
+                        <p>Suavizante Concentrado Líquido DOWNY Brisa Fresca Botella 2.8L</p>
+                        <p class="precio">PRECIO: 25.90</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="8">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imagenes/oleole.png" alt="Producto9">
+                    <div class="product-txt">
+                        <h3>OLÉ OLÉ</h3>
+                        <p>Marshmallows OLÉ OLÉ Festival Sabores Bolsa 45un</p>
+                        <p class="precio">PRECIO: S/7.90</p>
+                        <a href="" class="agregar-carrito btn-3" data-id="9">Añadir al carrito</a>
+                    </div>
+                </div>
+
+        </main>
+    </section>
+
+    <!-- Agrega más productos aquí -->
+    </div>
+    </div>
+    </main>
+    </section>
+    <section id="banner">
+        <div class="banner-content container">
+            <div class="imagen-11">
+                <a href="http://">
+                    <img src="imagenes/banner de publicidad.png" alt="" width="1280px" height="225px">
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content container">
+            <img class="footer-1" src="imagenes/logo1.svg" alt="" width="238px" height="268px">
+            <div class="link">
+
+                <h3>TRASAC.SA</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Cambios y devoluciones</a></li>
+                    <li><a href="#">Vende con nosotros</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                </ul>
+
+            </div>
+
+            <div class="newletters">
+                <h3>registrese</h3>
+                <div class="newletters-caja">
+                    <ul>
+                        <input type="nombres y apellidos" name="correo2" id="correo2" placeholder="nombre y apellidos">
+                        <input type="email" name="correo2" id="correo2" placeholder="escribe tu correo aqui">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                            placeholder="escribe tu consulta"></textarea>
+                    </ul>
+                    <a href="http://" class="bt-contactanos" id="bt-contactanos">
+                        <button type="button" class="btn-1 Enviar">contactanos</button>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
